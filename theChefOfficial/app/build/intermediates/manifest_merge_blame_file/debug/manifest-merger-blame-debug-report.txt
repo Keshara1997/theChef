@@ -1,0 +1,468 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.thechefofficial"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:12:5-79
+11-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:12:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:13:5-67
+12-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:13:22-64
+13
+14    <application
+14-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:5:5-44:19
+15        android:name="androidx.multidex.MultiDexApplication"
+16        android:allowBackup="true"
+16-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:6:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.2] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/6a8e4651ad8663da9f687c3c88d944cc/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:10:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.TheChefOfficial" >
+24-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:11:9-53
+25        <activity
+25-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:12:9-15:72
+26            android:name="com.example.thechefofficial.imageGalleryListActivity"
+26-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:13:13-53
+27            android:label="@string/title_imagegallery_list"
+27-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:14:13-60
+28            android:theme="@style/Theme.TheChefOfficial.NoActionBar" />
+28-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:15:13-69
+29        <activity
+29-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:16:9-24:20
+30            android:name="com.example.thechefofficial.imageGalleryDetailActivity"
+30-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:17:13-55
+31            android:label="@string/title_imagegallery_detail"
+31-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:18:13-62
+32            android:parentActivityName="com.example.thechefofficial.imageGalleryListActivity"
+32-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:19:13-67
+33            android:theme="@style/Theme.TheChefOfficial.NoActionBar" >
+33-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:20:13-69
+34            <meta-data
+34-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:21:13-23:88
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:22:17-63
+36                android:value="com.example.thechefofficial.imageGalleryListActivity" />
+36-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:23:17-85
+37        </activity>
+38        <activity android:name="com.example.thechefofficial.addPost" />
+38-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:25:9-45
+38-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:25:19-42
+39        <activity android:name="com.example.thechefofficial.test" />
+39-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:26:9-42
+39-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:26:19-39
+40        <activity
+40-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:27:9-30:72
+41            android:name="com.example.thechefofficial.HomeActivity"
+41-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:28:13-41
+42            android:label="@string/title_activity_home"
+42-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:29:13-56
+43            android:theme="@style/Theme.TheChefOfficial.NoActionBar" />
+43-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:30:13-69
+44        <activity
+44-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:31:9-33:60
+45            android:name="com.example.thechefofficial.LoginActivity"
+45-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:32:13-42
+46            android:label="@string/title_activity_login" />
+46-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:33:13-57
+47        <activity
+47-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:34:9-36:63
+48            android:name="com.example.thechefofficial.RegisterActivity"
+48-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:35:13-45
+49            android:label="@string/title_activity_register" />
+49-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:36:13-60
+50        <activity android:name="com.example.thechefofficial.MainActivity" >
+50-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:37:9-43:20
+50-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:37:19-47
+51            <intent-filter>
+51-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:38:13-42:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:39:17-69
+52-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:39:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:41:17-77
+54-->/home/keshara/Documents/MAD/3/theChefOfficial/app/src/main/AndroidManifest.xml:41:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <meta-data
+58-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:16:9-18:69
+59            android:name="com.google.android.gms.version"
+59-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:17:13-58
+60            android:value="@integer/google_play_services_version" />
+60-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:18:13-66
+61        <meta-data
+61-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:19:9-21:63
+62            android:name="com.facebook.sdk.ApplicationId"
+62-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:20:13-58
+63            android:value="@string/facebook_application_id" />
+63-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:21:13-60
+64
+65        <activity
+65-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:23:9-27:61
+66            android:name="com.firebase.ui.auth.KickoffActivity"
+66-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:24:13-64
+67            android:exported="false"
+67-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:25:13-37
+68            android:label=""
+68-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:26:13-29
+69            android:theme="@style/FirebaseUI.Transparent" />
+69-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:27:13-58
+70        <activity
+70-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:28:9-32:61
+71            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+71-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:29:13-76
+72            android:exported="false"
+72-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:30:13-37
+73            android:label=""
+73-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:31:13-29
+74            android:theme="@style/FirebaseUI.Transparent" />
+74-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:32:13-58
+75        <activity
+75-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:33:9-37:61
+76            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+76-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:34:13-86
+77            android:exported="false"
+77-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:35:13-37
+78            android:label=""
+78-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:36:13-29
+79            android:theme="@style/FirebaseUI.Transparent" />
+79-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:37:13-58
+80        <activity
+80-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:38:9-42:58
+81            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+81-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:39:13-81
+82            android:exported="false"
+82-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:40:13-37
+83            android:label="@string/fui_title_recover_password_activity"
+83-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:41:13-72
+84            android:windowSoftInputMode="adjustResize" />
+84-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:42:13-55
+85        <activity
+85-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:43:9-47:58
+86            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+86-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:44:13-71
+87            android:exported="false"
+87-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:45:13-37
+88            android:label="@string/fui_sign_in_default"
+88-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:46:13-56
+89            android:windowSoftInputMode="adjustResize" />
+89-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:47:13-55
+90        <activity
+90-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:48:9-52:77
+91            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+91-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:49:13-71
+92            android:exported="false"
+92-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:50:13-37
+93            android:label="@string/fui_sign_in_with_phone_number"
+93-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:51:13-66
+94            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+94-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:52:13-74
+95        <activity
+95-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:53:9-57:58
+96            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+96-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:54:13-76
+97            android:exported="false"
+97-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:55:13-37
+98            android:label="@string/fui_title_welcome_back_idp_prompt"
+98-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:56:13-70
+99            android:windowSoftInputMode="adjustResize" />
+99-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:57:13-55
+100        <activity
+100-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:58:9-62:58
+101            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+101-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:59:13-83
+102            android:exported="false"
+102-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:60:13-37
+103            android:label="@string/fui_title_welcome_back_password_prompt"
+103-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:61:13-75
+104            android:windowSoftInputMode="adjustResize" />
+104-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:62:13-55
+105        <activity
+105-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:63:9-67:58
+106            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+106-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:64:13-84
+107            android:exported="false"
+107-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:65:13-37
+108            android:label="@string/fui_title_welcome_back_password_prompt"
+108-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:66:13-75
+109            android:windowSoftInputMode="adjustResize" />
+109-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:67:13-55
+110        <activity
+110-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:68:9-73:58
+111            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+111-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:69:13-82
+112            android:exported="false"
+112-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:70:13-37
+113            android:label=""
+113-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:71:13-29
+114            android:theme="@style/FirebaseUI.Transparent"
+114-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:72:13-58
+115            android:windowSoftInputMode="adjustResize" />
+115-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:73:13-55
+116        <activity
+116-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:74:9-78:58
+117            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+117-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:75:13-88
+118            android:exported="false"
+118-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:76:13-37
+119            android:label="@string/fui_sign_in_default"
+119-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:77:13-56
+120            android:windowSoftInputMode="adjustResize" />
+120-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:78:13-55
+121        <activity
+121-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:79:9-82:65
+122            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+122-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:80:13-80
+123            android:exported="false"
+123-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:81:13-37
+124            android:label="@string/fui_default_toolbar_title" />
+124-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:82:13-62
+125        <activity
+125-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:83:9-87:48
+126            android:name="com.facebook.FacebookActivity"
+126-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:84:13-57
+127            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+127-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:85:13-96
+128            android:label="@string/app_name" />
+128-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:86:13-45
+129        <activity
+129-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:88:9-100:20
+130            android:name="com.facebook.CustomTabActivity"
+130-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:89:13-58
+131            android:exported="true" >
+131-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:90:13-36
+132            <intent-filter>
+132-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:92:13-99:29
+133                <action android:name="android.intent.action.VIEW" />
+133-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:93:17-69
+133-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:93:25-66
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:95:17-76
+135-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:95:27-73
+136                <category android:name="android.intent.category.BROWSABLE" />
+136-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:96:17-78
+136-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:96:27-75
+137
+138                <data android:scheme="@string/facebook_login_protocol_scheme" />
+138-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:98:17-81
+138-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:98:23-78
+139            </intent-filter>
+140        </activity>
+141
+142        <provider
+142-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:102:9-106:38
+143            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+143-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:103:13-79
+144            android:authorities="com.example.thechefofficial.authuiinitprovider"
+144-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:104:13-70
+145            android:exported="false"
+145-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:105:13-37
+146            android:initOrder="90" />
+146-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:106:13-35
+147        <provider
+147-->[com.squareup.picasso:picasso:2.71828] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5c7e1acbe3b0be91a3ce8c511ba9dc2a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+148            android:name="com.squareup.picasso.PicassoProvider"
+148-->[com.squareup.picasso:picasso:2.71828] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5c7e1acbe3b0be91a3ce8c511ba9dc2a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+149            android:authorities="com.example.thechefofficial.com.squareup.picasso"
+149-->[com.squareup.picasso:picasso:2.71828] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5c7e1acbe3b0be91a3ce8c511ba9dc2a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+150            android:exported="false" />
+150-->[com.squareup.picasso:picasso:2.71828] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5c7e1acbe3b0be91a3ce8c511ba9dc2a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+151
+152        <activity
+152-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+153            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+153-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+154            android:excludeFromRecents="true"
+154-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+155            android:exported="true"
+155-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+156            android:launchMode="singleTask"
+156-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+157-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+158            <intent-filter>
+158-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:93:17-69
+159-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:93:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:95:17-76
+161-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:95:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:96:17-78
+162-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:96:27-75
+163
+164                <data
+164-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:98:17-81
+165                    android:host="firebase.auth"
+166                    android:path="/"
+167                    android:scheme="genericidp" />
+167-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:98:23-78
+168            </intent-filter>
+169        </activity>
+170        <activity
+170-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+171            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+171-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+172            android:excludeFromRecents="true"
+172-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+173            android:exported="true"
+173-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+174            android:launchMode="singleTask"
+174-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+175-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+176            <intent-filter>
+176-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+177                <action android:name="android.intent.action.VIEW" />
+177-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:93:17-69
+177-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:93:25-66
+178
+179                <category android:name="android.intent.category.DEFAULT" />
+179-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:95:17-76
+179-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:95:27-73
+180                <category android:name="android.intent.category.BROWSABLE" />
+180-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:96:17-78
+180-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:96:27-75
+181
+182                <data
+182-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:98:17-81
+183                    android:host="firebase.auth"
+184                    android:path="/"
+185                    android:scheme="recaptcha" />
+185-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:98:23-78
+186            </intent-filter>
+187        </activity>
+188
+189        <service
+189-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+190            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+190-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+191            android:enabled="true"
+191-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+192            android:exported="false" >
+192-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+193            <intent-filter>
+193-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+194                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+194-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+194-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+195
+196                <category android:name="android.intent.category.DEFAULT" />
+196-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:95:17-76
+196-->[com.firebaseui:firebase-ui-auth:7.1.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/5a301b1b046111bac8f6aa44d10520ba/transformed/jetified-firebase-ui-auth-7.1.1/AndroidManifest.xml:95:27-73
+197            </intent-filter>
+198        </service>
+199        <service
+199-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+200            android:name="com.google.firebase.components.ComponentDiscoveryService"
+200-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+201            android:directBootAware="true"
+201-->[com.google.firebase:firebase-common:20.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/f618723480d3ae26c45b83bc1f544dd5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+202            android:exported="false" >
+202-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+203            <meta-data
+203-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+204                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+204-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[com.google.firebase:firebase-auth:21.0.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/959f288c9642ddb64ff8e14545fb67dd/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+206            <meta-data
+206-->[com.google.firebase:firebase-database:19.5.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/2001dbe91561552d00ca4b45bccd922c/transformed/jetified-firebase-database-19.5.1/AndroidManifest.xml:32:13-34:85
+207                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+207-->[com.google.firebase:firebase-database:19.5.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/2001dbe91561552d00ca4b45bccd922c/transformed/jetified-firebase-database-19.5.1/AndroidManifest.xml:33:17-109
+208                android:value="com.google.firebase.components.ComponentRegistrar" />
+208-->[com.google.firebase:firebase-database:19.5.1] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/2001dbe91561552d00ca4b45bccd922c/transformed/jetified-firebase-database-19.5.1/AndroidManifest.xml:34:17-82
+209            <meta-data
+209-->[com.google.firebase:firebase-firestore:22.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/232da317b5197034edafcdbee3c371b7/transformed/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:20:13-22:85
+210                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+210-->[com.google.firebase:firebase-firestore:22.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/232da317b5197034edafcdbee3c371b7/transformed/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:21:17-111
+211                android:value="com.google.firebase.components.ComponentRegistrar" />
+211-->[com.google.firebase:firebase-firestore:22.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/232da317b5197034edafcdbee3c371b7/transformed/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:22:17-82
+212            <meta-data
+212-->[com.google.firebase:firebase-storage:19.2.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/999f4889bea28681881100ba8b9c03ce/transformed/jetified-firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+213                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+213-->[com.google.firebase:firebase-storage:19.2.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/999f4889bea28681881100ba8b9c03ce/transformed/jetified-firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+214                android:value="com.google.firebase.components.ComponentRegistrar" />
+214-->[com.google.firebase:firebase-storage:19.2.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/999f4889bea28681881100ba8b9c03ce/transformed/jetified-firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+215        </service>
+216
+217        <activity
+217-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+218            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+218-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+219            android:excludeFromRecents="true"
+219-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+221            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+221-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+222        <!--
+223            Service handling Google Sign-In user revocation. For apps that do not integrate with
+224            Google Sign-In, this service will never be started.
+225        -->
+226        <service
+226-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+227            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+227-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+228            android:exported="true"
+228-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+229            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+229-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+230            android:visibleToInstantApps="true" />
+230-->[com.google.android.gms:play-services-auth:19.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/7668c68c05238b237304999a35947558/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+231
+232        <activity
+232-->[com.google.android.gms:play-services-base:17.1.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/c5ad7676ef4a81714767033df9c5638c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+233            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+233-->[com.google.android.gms:play-services-base:17.1.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/c5ad7676ef4a81714767033df9c5638c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+234            android:exported="false"
+234-->[com.google.android.gms:play-services-base:17.1.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/c5ad7676ef4a81714767033df9c5638c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+235-->[com.google.android.gms:play-services-base:17.1.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/c5ad7676ef4a81714767033df9c5638c/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+236
+237        <provider
+237-->[com.google.firebase:firebase-common:20.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/f618723480d3ae26c45b83bc1f544dd5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+238            android:name="com.google.firebase.provider.FirebaseInitProvider"
+238-->[com.google.firebase:firebase-common:20.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/f618723480d3ae26c45b83bc1f544dd5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+239            android:authorities="com.example.thechefofficial.firebaseinitprovider"
+239-->[com.google.firebase:firebase-common:20.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/f618723480d3ae26c45b83bc1f544dd5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+240            android:directBootAware="true"
+240-->[com.google.firebase:firebase-common:20.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/f618723480d3ae26c45b83bc1f544dd5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+241            android:exported="false"
+241-->[com.google.firebase:firebase-common:20.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/f618723480d3ae26c45b83bc1f544dd5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+242            android:initOrder="100" />
+242-->[com.google.firebase:firebase-common:20.0.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/f618723480d3ae26c45b83bc1f544dd5/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+243        <provider
+243-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/6c32833e22b6fbcb045bd62ad2fbabe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+244            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+244-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/6c32833e22b6fbcb045bd62ad2fbabe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+245            android:authorities="com.example.thechefofficial.lifecycle-process"
+245-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/6c32833e22b6fbcb045bd62ad2fbabe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+246            android:exported="false"
+246-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/6c32833e22b6fbcb045bd62ad2fbabe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+247            android:multiprocess="true" />
+247-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/keshara/Documents/AndroidStudio/thechefffinal/caches/transforms-3/6c32833e22b6fbcb045bd62ad2fbabe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+248    </application>
+249
+250</manifest>
