@@ -1,2 +1,2 @@
-# theChef
+# TheChef
 Mobile Application Development
