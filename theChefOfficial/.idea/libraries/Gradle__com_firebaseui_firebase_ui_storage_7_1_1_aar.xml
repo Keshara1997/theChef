@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.firebaseui:firebase-ui-storage:7.1.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../AndroidStudio/thechefffinal/caches/transforms-3/fb8e09f4baf2f585030b2bd76a07feee/transformed/jetified-firebase-ui-storage-7.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../AndroidStudio/thechefffinal/caches/transforms-3/fb8e09f4baf2f585030b2bd76a07feee/transformed/jetified-firebase-ui-storage-7.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../AndroidStudio/thechefffinal/caches/transforms-3/fb8e09f4baf2f585030b2bd76a07feee/transformed/jetified-firebase-ui-storage-7.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../AndroidStudio/thechefffinal/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-storage/7.1.1/b8fc90fcda27bee710c6ad781df5981d4c717202/firebase-ui-storage-7.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../AndroidStudio/thechefffinal/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-storage/7.1.1/70138a334679af9663c9b54f2b35ff97f20dc552/firebase-ui-storage-7.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

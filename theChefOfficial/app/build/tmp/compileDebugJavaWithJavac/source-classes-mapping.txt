@@ -1,0 +1,153 @@
+com/example/thechefofficial/BuildConfig.java
+ com.example.thechefofficial.BuildConfig
+com/example/thechefofficial/ui/home/HomeViewModel.java
+ com.example.thechefofficial.ui.home.HomeViewModel
+com/example/thechefofficial/ui/MypostListRecyclerViewAdapter.java
+ com.example.thechefofficial.ui.MypostListRecyclerViewAdapter
+ com.example.thechefofficial.ui.MypostListRecyclerViewAdapter$ViewHolder
+com/example/thechefofficial/test.java
+ com.example.thechefofficial.test
+com/example/thechefofficial/ui/slideshow/SlideshowViewModel.java
+ com.example.thechefofficial.ui.slideshow.SlideshowViewModel
+com/example/thechefofficial/data/model/LoggedInUser.java
+ com.example.thechefofficial.data.model.LoggedInUser
+com/example/thechefofficial/ui/home/HomeFragment.java
+ com.example.thechefofficial.ui.home.HomeFragment
+ com.example.thechefofficial.ui.home.HomeFragment$1
+com/example/thechefofficial/ui/slideshow/SlideshowFragment.java
+ com.example.thechefofficial.ui.slideshow.SlideshowFragment
+ com.example.thechefofficial.ui.slideshow.SlideshowFragment$1
+com/example/thechefofficial/ui/login/LoginViewModelFactory.java
+ com.example.thechefofficial.ui.login.LoginViewModelFactory
+com/example/thechefofficial/dummy/DummyContent.java
+ com.example.thechefofficial.dummy.DummyContent
+ com.example.thechefofficial.dummy.DummyContent$DummyItem
+com/example/thechefofficial/ui/favorite/FavoriteFragment.java
+ com.example.thechefofficial.ui.favorite.FavoriteFragment
+ com.example.thechefofficial.ui.favorite.FavoriteFragment$1
+ com.example.thechefofficial.ui.favorite.FavoriteFragment$1$1
+com/example/thechefofficial/ui/favorite/FavouriteAdapter.java
+ com.example.thechefofficial.ui.favorite.FavouriteAdapter
+ com.example.thechefofficial.ui.favorite.FavouriteAdapter$1
+ com.example.thechefofficial.ui.favorite.FavouriteAdapter$1$1
+ com.example.thechefofficial.ui.favorite.FavouriteAdapter$1$1$1
+ com.example.thechefofficial.ui.favorite.FavouriteAdapter$1$1$2
+ com.example.thechefofficial.ui.favorite.FavouriteAdapter$2
+ com.example.thechefofficial.ui.favorite.FavouriteAdapter$2$1
+com/example/thechefofficial/imageGalleryDetailFragment.java
+ com.example.thechefofficial.imageGalleryDetailFragment
+com/example/thechefofficial/data/model/User.java
+ com.example.thechefofficial.data.model.User
+com/example/thechefofficial/ui/gallery/GalleryViewModel.java
+ com.example.thechefofficial.ui.gallery.GalleryViewModel
+com/example/thechefofficial/ui/gallery/GalleryFragment.java
+ com.example.thechefofficial.ui.gallery.GalleryFragment
+ com.example.thechefofficial.ui.gallery.GalleryFragment$1
+ com.example.thechefofficial.ui.gallery.GalleryFragment$1$1
+ com.example.thechefofficial.ui.gallery.GalleryFragment$1$2
+ com.example.thechefofficial.ui.gallery.GalleryFragment$2
+ com.example.thechefofficial.ui.gallery.GalleryFragment$3
+ com.example.thechefofficial.ui.gallery.GalleryFragment$4
+ com.example.thechefofficial.ui.gallery.GalleryFragment$5
+ com.example.thechefofficial.ui.gallery.GalleryFragment$5$1
+ com.example.thechefofficial.ui.gallery.GalleryFragment$5$2
+ com.example.thechefofficial.ui.gallery.GalleryFragment$6
+com/example/thechefofficial/ui/favorite/Favourite.java
+ com.example.thechefofficial.ui.favorite.Favourite
+com/example/thechefofficial/ui/feedback/FeedBack.java
+ com.example.thechefofficial.ui.feedback.FeedBack
+com/example/thechefofficial/ui/home/postModel.java
+ com.example.thechefofficial.ui.home.postModel
+com/example/thechefofficial/imageGalleryListActivity.java
+ com.example.thechefofficial.imageGalleryListActivity
+ com.example.thechefofficial.imageGalleryListActivity$1
+ com.example.thechefofficial.imageGalleryListActivity$SimpleItemRecyclerViewAdapter
+ com.example.thechefofficial.imageGalleryListActivity$SimpleItemRecyclerViewAdapter$1
+ com.example.thechefofficial.imageGalleryListActivity$SimpleItemRecyclerViewAdapter$ViewHolder
+com/example/thechefofficial/ui/home/Recipe.java
+ com.example.thechefofficial.ui.home.Recipe
+com/example/thechefofficial/MainActivity.java
+ com.example.thechefofficial.MainActivity
+com/example/thechefofficial/RegisterActivity.java
+ com.example.thechefofficial.RegisterActivity
+ com.example.thechefofficial.RegisterActivity$1
+ com.example.thechefofficial.RegisterActivity$2
+ com.example.thechefofficial.RegisterActivity$2$1
+ com.example.thechefofficial.RegisterActivity$2$1$1
+ com.example.thechefofficial.RegisterActivity$2$1$2
+ com.example.thechefofficial.RegisterActivity$3
+ com.example.thechefofficial.RegisterActivity$4
+ com.example.thechefofficial.RegisterActivity$5
+ com.example.thechefofficial.RegisterActivity$6
+com/example/thechefofficial/data/Result.java
+ com.example.thechefofficial.data.Result
+ com.example.thechefofficial.data.Result$1
+ com.example.thechefofficial.data.Result$Error
+ com.example.thechefofficial.data.Result$Success
+com/example/thechefofficial/ui/slideshow/postViewAdapter.java
+ com.example.thechefofficial.ui.slideshow.postViewAdapter
+ com.example.thechefofficial.ui.slideshow.postViewAdapter$1
+ com.example.thechefofficial.ui.slideshow.postViewAdapter$1$1
+ com.example.thechefofficial.ui.slideshow.postViewAdapter$1$2
+ com.example.thechefofficial.ui.slideshow.postViewAdapter$1$2$1
+ com.example.thechefofficial.ui.slideshow.postViewAdapter$2
+ com.example.thechefofficial.ui.slideshow.postViewAdapter$2$1
+ com.example.thechefofficial.ui.slideshow.postViewAdapter$2$1$1
+ com.example.thechefofficial.ui.slideshow.postViewAdapter$2$1$2
+com/example/thechefofficial/data/LoginRepository.java
+ com.example.thechefofficial.data.LoginRepository
+com/example/thechefofficial/ui/login/LoggedInUserView.java
+ com.example.thechefofficial.ui.login.LoggedInUserView
+com/example/thechefofficial/LoginActivity.java
+ com.example.thechefofficial.LoginActivity
+ com.example.thechefofficial.LoginActivity$1
+ com.example.thechefofficial.LoginActivity$1$1
+ com.example.thechefofficial.LoginActivity$1$2
+ com.example.thechefofficial.LoginActivity$2
+ com.example.thechefofficial.LoginActivity$2$1
+ com.example.thechefofficial.LoginActivity$2$1$1
+ com.example.thechefofficial.LoginActivity$2$1$2
+ com.example.thechefofficial.LoginActivity$2$2
+com/example/thechefofficial/data/LoginDataSource.java
+ com.example.thechefofficial.data.LoginDataSource
+com/example/thechefofficial/ui/feedback/FeedbackFragment.java
+ com.example.thechefofficial.ui.feedback.FeedbackFragment
+ com.example.thechefofficial.ui.feedback.FeedbackFragment$1
+com/example/thechefofficial/ui/login/LoginFormState.java
+ com.example.thechefofficial.ui.login.LoginFormState
+com/example/thechefofficial/ui/login/LoginResult.java
+ com.example.thechefofficial.ui.login.LoginResult
+com/example/thechefofficial/ui/dummy/PostContent.java
+ com.example.thechefofficial.ui.dummy.PostContent
+ com.example.thechefofficial.ui.dummy.PostContent$PostItem
+com/example/thechefofficial/ui/feedback/FeedbackAdapter.java
+ com.example.thechefofficial.ui.feedback.FeedbackAdapter
+ com.example.thechefofficial.ui.feedback.FeedbackAdapter$1
+ com.example.thechefofficial.ui.feedback.FeedbackAdapter$1$1
+ com.example.thechefofficial.ui.feedback.FeedbackAdapter$1$2
+ com.example.thechefofficial.ui.feedback.FeedbackAdapter$1$2$1
+com/example/thechefofficial/ui/postListFragment.java
+ com.example.thechefofficial.ui.postListFragment
+com/example/thechefofficial/ui/login/LoginViewModel.java
+ com.example.thechefofficial.ui.login.LoginViewModel
+com/example/thechefofficial/addPost.java
+ com.example.thechefofficial.addPost
+ com.example.thechefofficial.addPost$1
+ com.example.thechefofficial.addPost$2
+ com.example.thechefofficial.addPost$3
+ com.example.thechefofficial.addPost$4
+ com.example.thechefofficial.addPost$5
+ com.example.thechefofficial.addPost$6
+ com.example.thechefofficial.addPost$7
+com/example/thechefofficial/imageGalleryDetailActivity.java
+ com.example.thechefofficial.imageGalleryDetailActivity
+ com.example.thechefofficial.imageGalleryDetailActivity$1
+com/example/thechefofficial/HomeActivity.java
+ com.example.thechefofficial.HomeActivity
+ com.example.thechefofficial.HomeActivity$1
+ com.example.thechefofficial.HomeActivity$2
+ com.example.thechefofficial.HomeActivity$3
+ com.example.thechefofficial.HomeActivity$4
+ com.example.thechefofficial.HomeActivity$5
+ com.example.thechefofficial.HomeActivity$5$1
+ com.example.thechefofficial.HomeActivity$5$2
